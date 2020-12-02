@@ -8992,8 +8992,8 @@ button,
     transition: width 0.2s;
 }
 .app-header__logo .logo-src {
-    height: 23px;
-    width: 97px;
+    height: 36px;
+    width: 180px;
     background: url(assets/images/logo-inverse.png);
 }
 .app-header__menu,
@@ -20582,4 +20582,14 @@ a.fc-more:hover {
 }
 .due-details p {
     font-size: 20px;
+}
+table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.dataTable.display tbody th, table.dataTable.display tbody td 
+ {
+    border: none;
+ }
+table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
+    background-color: #fff !important;
+}
+table.dataTable tbody tr {
+    background-color: #fff !important;
 }

@@ -48,14 +48,14 @@
 					                  		<div class="col-md-6">
 							                    <div class="form-group">
 							                      <label for="hp_no">HP NO</label>
-							                      <input type="number" class="form-control" id="hp_no" placeholder="HP Number" name="hp_number">
+							                      <input type="number" class="form-control required-field" id="hp_no" placeholder="HP Number" name="hp_number">
 
 							                    </div>
 					                  		</div>
 					                  		<div class="col-md-6">
 							                    <div class="form-group">
 							                      <label for="date">Date</label>
-							                      <input type="date" class="form-control" id="date" placeholder="date" name="date">
+							                      <input type="date" class="form-control required-field" id="date" placeholder="date" name="date">
 							                    </div>
 					                  		</div>
 					                  	</div>
@@ -63,13 +63,13 @@
 					                  		<div class="col-md-6">
 							                    <div class="form-group">
 							                      <label for="hire_name">Hire's Name</label>
-							                      <input type="text" class="form-control" id="hire_name" placeholder="Hire's Name" name="hire_name">
+							                      <input type="text" class="form-control required-field" id="hire_name" placeholder="Hire's Name" name="hire_name">
 							                    </div>
 					                  		</div>
 					                  		<div class="col-md-6">
 							                    <div class="form-group">
 							                      <label for="hire_address">Hire's Address</label>
-							                      <textarea type="text" class="form-control" id="hire_address" placeholder="Hire's Address" name="hire_address"></textarea>
+							                      <textarea type="text" class="form-control required-field" id="hire_address" placeholder="Hire's Address" name="hire_address"></textarea>
 							                    </div>
 					                  		</div>
 					                  	</div>
@@ -77,13 +77,13 @@
 					                  		<div class="col-md-6">
 							                    <div class="form-group">
 							                      <label for="guarantor_name">Guarantor's Name</label>
-							                      <input type="text" class="form-control" id="guarantor_name" placeholder="Hire's Name" name="guarantor_name">
+							                      <input type="text" class="form-control required-field" id="guarantor_name" placeholder="Hire's Name" name="guarantor_name">
 							                    </div>
 					                  		</div>
 					                  		<div class="col-md-6">
 							                    <div class="form-group">
 							                      <label for="guarantor_address">Guarantor's Address</label>
-							                      <textarea type="text" class="form-control" id="guarantor_address" placeholder="Hire's Address" name="guarantor_address"></textarea>
+							                      <textarea type="text" class="form-control required-field" id="guarantor_address" placeholder="Hire's Address" name="guarantor_address"></textarea>
 							                    </div>
 					                  		</div>
 					                  	</div>
@@ -92,7 +92,7 @@
 					                  			<div class="form-group">
 							                      	<label for="vehicle_category">Vehicle Category</label>
 							                      	
-							                      	<select id="vehicle_category" class="form-control vehicle_type" name="vehicle_category">
+							                      	<select id="vehicle_category" class="form-control vehicle_type required-field" name="vehicle_category">
 														<option value="">Select the option  </option>
 														@foreach($categories as $category)
 															<option value="{{$category->id}}">{{$category->category}}</option>
@@ -103,7 +103,7 @@
 					                  		<div class="col-md-6">
 					                  			<div class="form-group">
 							                      	<label for="vehicle_brand">Select Brand</label>
-							                      	<select id="vehicle_brand" class="form-control vehicle_type" name="vehicle_vehicle">
+							                      	<select id="vehicle_brand" class="form-control vehicle_type required-field" name="vehicle_vehicle">
 
                                                     </select>
 							                    </div>
@@ -113,7 +113,7 @@
 					                  		<div class="col-md-6">
 					                  			<div class="form-group">
 							                      	<label for="vehicle_model">Vehicle Model</label>
-							                      	<select id="vehicle_model" class="form-control vehicle_type"  name="vehicle_model">
+							                      	<select id="vehicle_model" class="form-control required-field"  name="vehicle_model">
 
                                                     </select>
 							                    </div>
@@ -121,7 +121,7 @@
 					                  		<div class="col-md-6">
 					                  			<div class="form-group">
 							                      	<label for="vehicle_year">Select Year</label>
-							                      	<select id="vehicle_year" class="form-control year" name="vehicle_year"></select>
+							                      	<select id="vehicle_year" class="form-control year required-field" name="vehicle_year"></select>
 							                    </div>
 					                  		</div>
 					                  	</div>
